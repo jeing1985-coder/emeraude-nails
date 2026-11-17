@@ -13,4 +13,4 @@
 /* Mobile uses the exact desktop photograph, cropped around the nails. */
 .hero-mobile-art{display:none}
 @media(max-width:767px){.hero-mobile-art{display:block;height:clamp(210px,58vw,260px);background-image:linear-gradient(180deg,#03271e 0%,#03271e00 15%),url('assets/hero.webp');background-size:100% 100%,auto 165%;background-position:center,right bottom;background-repeat:no-repeat}}
-.about-copy>.master-name{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;color:var(--gold);font-size:clamp(28px,2.4vw,38px);line-height:1.1;letter-spacing:.5px}
+.about-copy>p.master-name{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;color:var(--gold);font-size:clamp(28px,2.4vw,38px);line-height:1.1;letter-spacing:.5px}
